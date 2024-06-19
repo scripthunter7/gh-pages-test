@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - '*.txt'
+      - hufilter*.txt
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
